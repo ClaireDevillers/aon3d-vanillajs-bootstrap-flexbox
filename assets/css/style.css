@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system,BlinkMacSystemFont,
+                "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",
+                sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+                "Segoe UI Symbol","Noto Color Emoji" ;
+    border: 4px dotted yellow;
+    background-color: #121212;
+    height: 100vh;
+    color:white;
+}
+
+header {
+    border: 3px dotted yellow;
+    padding: 2em;
+}
+
+section {
+    border: 4px dotted yellow;
+    padding: 5em;
+}
+
+footer {
+    border: 3px dotted yellow;
+    padding: 2em;
+}
+
+
+
