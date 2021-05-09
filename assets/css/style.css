@@ -69,8 +69,39 @@ section {
 
 footer {
     border: 3px dotted greenyellow;
-    padding: 2em;
+    display: flex; 
+    flex-direction: column;
 }
 
+.footer-links {
+    border: 2px dotted oldlace;
+}
+
+.footer-links .accordion-button {
+    color: white;
+}
+
+.footer-links .accordion-button:after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.footer-links .accordion-button:not(.collapsed) {
+ background-color: transparent;
+}
+
+
+.copyright {
+    border: 2px dotted oldlace;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 00.7em;
+}
+
+.copyright a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+
+
+}
 
 
