@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     padding: 0;
     margin: 0;
@@ -14,8 +13,6 @@ body {
     background-color: #121212;
     height: 100vh;
     color:white;
-    
-
 }
 
 header {
@@ -34,7 +31,7 @@ header {
     padding: 0.3em 0.5em;
 }
 
-.drop-down{
+.drop-down {
     font-size: 1em;
     color: white;
     background-color: #7a7b7d;
@@ -43,13 +40,23 @@ header {
     right: 0.5em;
     padding: 1em 1.5em 1em 0.8em;
     border-radius: 00.3em;
-
 }
-
 
 section {
     border: 4px dotted yellow;
-    padding: 5em;
+}
+
+.hero img {
+    height: 70vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-40%);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: transparent;
+    border: none;
 }
 
 footer {
