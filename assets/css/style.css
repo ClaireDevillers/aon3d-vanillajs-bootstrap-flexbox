@@ -1,5 +1,6 @@
 :root {
-    --bg: #121212
+    --body-bg:#121212;
+    --section-bg: #121212;
 }
 
 * {
@@ -13,24 +14,18 @@ body {
                 "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",
                 sans-serif,"Apple Color Emoji","Segoe UI Emoji",
                 "Segoe UI Symbol","Noto Color Emoji" ;
-    border: 4px dotted rgb(255, 0, 212);
-    background-color: var(--bg);
+    background-color: var(--body-bg);
     color:white;
 }
 
 header {
-    border: 3px dotted yellow;
+    background-color: var(--section-bg);
     display: flex;
     justify-content: space-between;
 }
 
 .lg-header {
     display: none;
-}
-
-
-.borderred {
-    border: 3px dotted red;
 }
 
 .burger {
@@ -51,10 +46,6 @@ header {
     z-index: 1000;
 }
 
-section {
-    border: 4px dotted red;
-}
-
 .hero img {
     height: 70vh;
     width: auto;
@@ -69,7 +60,6 @@ section {
 }
 
 .cards {
-    border: 3px dotted paleturquoise;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,8 +71,11 @@ section {
     background-color: #343a40;
 }
 
+footer {
+    background-color: var(--section-bg);
+}
+
 .mobile-footer {
-    border: 3px dotted greenyellow;
     display: flex; 
     flex-direction: column;
 }
@@ -91,24 +84,19 @@ section {
     display: none;
 }
 
-.footer-links {
-    border: 2px dotted oldlace;
-}
-
 .footer-links .accordion-button {
     color: white;
 }
 
 .footer-links .accordion-button:after {
-        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-}
-.footer-links .accordion-button:not(.collapsed) {
- background-color: transparent;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
+.footer-links .accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
 
 .copyright {
-    border: 2px dotted oldlace;
     display: flex;
     flex-wrap: wrap;
     font-size: 00.7em;
@@ -127,7 +115,6 @@ section {
     }
     .lg-header {
         display: flex;
-        border: 3px dotted aqua;
         padding: 0em 2em;
         height: 8vh;
         align-items: center;
@@ -178,7 +165,6 @@ section {
     }
 
     .lg-footer {
-        border: 2px dotted green;
         display: grid;
         align-items: stretch;
         justify-items: stretch;
@@ -188,6 +174,7 @@ section {
         margin: 0 5em;
     }
     .copyright {
+        border-top: 1px solid white;
         width: 100%;
         grid-column: span 4;
         display: flex;
