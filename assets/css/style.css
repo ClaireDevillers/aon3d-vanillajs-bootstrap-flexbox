@@ -9,9 +9,8 @@ body {
                 "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",
                 sans-serif,"Apple Color Emoji","Segoe UI Emoji",
                 "Segoe UI Symbol","Noto Color Emoji" ;
-    border: 4px dotted yellow;
+    border: 4px dotted rgb(255, 0, 212);
     background-color: #121212;
-    height: 100vh;
     color:white;
 }
 
@@ -43,7 +42,7 @@ header {
 }
 
 section {
-    border: 4px dotted yellow;
+    border: 4px dotted red;
 }
 
 .hero img {
@@ -59,8 +58,17 @@ section {
     border: none;
 }
 
+.cards {
+    border: 3px dotted paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    flex-wrap: wrap;
+}
+
 footer {
-    border: 3px dotted yellow;
+    border: 3px dotted greenyellow;
     padding: 2em;
 }
 
