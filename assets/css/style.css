@@ -1,3 +1,7 @@
+:root {
+    --bg: #121212
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +14,7 @@ body {
                 sans-serif,"Apple Color Emoji","Segoe UI Emoji",
                 "Segoe UI Symbol","Noto Color Emoji" ;
     border: 4px dotted rgb(255, 0, 212);
-    background-color: #121212;
+    background-color: var(--bg);
     color:white;
 }
 
@@ -19,6 +23,11 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.lg-header {
+    display: none;
+}
+
 
 .borderred {
     border: 3px dotted red;
@@ -39,6 +48,7 @@ header {
     right: 0.5em;
     padding: 1em 1.5em 1em 0.8em;
     border-radius: 00.3em;
+    z-index: 1000;
 }
 
 section {
@@ -67,10 +77,18 @@ section {
     flex-wrap: wrap;
 }
 
-footer {
+.card-body {
+    background-color: #343a40;
+}
+
+.mobile-footer {
     border: 3px dotted greenyellow;
     display: flex; 
     flex-direction: column;
+}
+
+.lg-footer {
+    display: none;
 }
 
 .footer-links {
@@ -100,8 +118,83 @@ footer {
     padding: 0.5em;
     text-decoration: none;
     color: white;
-
-
 }
 
+@media only screen and (min-width: 768px) {
+    /* make burger disappear */
+    .mobile-header {
+        display: none;
+    }
+    .lg-header {
+        display: flex;
+        border: 3px dotted aqua;
+        padding: 0em 2em;
+        height: 8vh;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    .home {
+        padding-left: 2em;
+    }
 
+    .account {
+        padding-right: 4em;
+    }
+
+    .lg-header .btn-secondary, .btn-secondary:focus {
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 1.05em;
+    }
+
+    .hero img {
+        height: 90vh;
+        width: auto;
+        margin-left: none;
+        margin-right: none;
+        transform: none;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 15vh;
+        text-align: left;
+        width: 50em;
+    }
+
+    .carousel-caption h5 {
+        font-size: 5em;
+        text-align: left;
+    }
+
+    .cards {
+        transform: translateY(-4.5em);
+        margin-right: 6em;
+        margin-left: 6em;
+    }
+
+    .mobile-footer {
+        display:none
+    }
+
+    .lg-footer {
+        border: 2px dotted green;
+        display: grid;
+        align-items: stretch;
+        justify-items: stretch;
+        grid-template-columns: repeat(4, minmax(10em,1fr));
+        grid-template-rows: 20em 3em;
+        grid-column-gap: 0;
+        margin: 0 5em;
+    }
+    .copyright {
+        width: 100%;
+        grid-column: span 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lg-footer li {
+        list-style-type: none;
+    }
+}
