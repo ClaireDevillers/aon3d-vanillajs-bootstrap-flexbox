@@ -4,5 +4,7 @@ This is a challenge I receive to create a responsive design based on a wireframe
 
 # screenshots
 
-<img src="https://gm1.ggpht.com/QB8xGQiiTf7MWWihScxh5f_puU_fzp3sUptL-j8zgtIqMICKz_UicHAaKvW5LmRjmW0HFP9TV3a8jLsKQ7dwMH_3qwvWJa6-d1OHBCbXP5O-jzE1EGgOyci4ijla9hgaEd3cu1nad3JeMdVMPGYm57_sLEUdS76GGwpMoCrbcUBrmW7eF0QQPXgJkPbmavXR2fNmpyzCP7OoIP8o90ngh7gz4Bsx-BN0tB-8rmZeEiOHt0rnPOrXOsBb8jol1IYPafp5bxE_eooPnSQ9ddms4G17atq-EaN6zmuoo2lDGCdtetc8D6bKTUf-e6OwItD2RZgKG6WDBqvy-DYdZhGLciq4hBDq47yUt7FIwhoXFE0h1KbeiOxVdHxHsKfeO-BEIznwN4zU-FdsaD8hlOiOr9_ngd3hPf3zrTEUf2bJeFVqryTBYjy4tgZJ-3ZtJ6PmQUxcO1DXNpUHtfe5TBqtHZt_VbTP8EY212qXuV1uVaRSMQxaGc8y8js_hAkChRs8dG5rQ6csN7MR7KaQ0LU30x_qWfB2p1pIEa_IFDmhIfoFfvvgC3FGIlLA5cAft4A8xxXRvD7POLZtvnBZu6fDr2yDhrUjXIAfXP_XQV9y01iPOR0kFHVOoqh4Ph7UfH7OOJrkzn2R5tXPTyyvUzW-OMXoA4hmy13BBDlLPHUosn1UsLSHgn_L_ma-4brbtf71i_W0NH-iKORFRute6XRsFx90-YFeJtZzbBeDMClft3JS4XFTvnKYmWTQ4C8lmIWrHEn8ag=s0-l75-ft-l75-ft" >
-
+![image](https://user-images.githubusercontent.com/69227766/117607710-93b83d80-b12a-11eb-8b7f-9636fa328d0c.png)
+![image](https://user-images.githubusercontent.com/69227766/117607743-a5014a00-b12a-11eb-89c8-a873c174c45f.png)
+![image](https://user-images.githubusercontent.com/69227766/117607754-a9c5fe00-b12a-11eb-86a1-5468adb35a22.png)
+![image](https://user-images.githubusercontent.com/69227766/117607769-af234880-b12a-11eb-8673-e92dd5f2393a.png)
