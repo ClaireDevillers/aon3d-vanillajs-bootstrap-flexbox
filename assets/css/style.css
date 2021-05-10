@@ -185,3 +185,12 @@ footer {
         list-style-type: none;
     }
 }
+
+/* gallery photos */
+
+.gallery {
+    border: 3px dotted chartreuse;
+    display: flex;
+    margin: 6em;
+
+}
