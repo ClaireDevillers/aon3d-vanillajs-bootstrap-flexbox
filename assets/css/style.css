@@ -188,9 +188,48 @@ footer {
 
 /* gallery photos */
 
-.gallery {
-    border: 3px dotted chartreuse;
+.gallery-container {
+    background-color: white;
+    color: var(--body-bg);
     display: flex;
-    margin: 6em;
+    flex-direction: column;
+    align-items: center;
+}
 
+.photo-counter {
+    display: none;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
+
+.see-more-btn {
+    display: none;
+    width:10em;
+    border: 1px solid black;
+    border-radius: 94px 94px 94px 94px;
+    margin-bottom: 3em;
+    font-size: 1.15;
+    background-color: honeydew;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.gallery > div {
+    margin: 2em 1.5em;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery > div > img {
+    border: 4px solid grey;
+    box-shadow: 9px -9px 9px 1px rgba(219,212,219,0.87);
+    margin-bottom: 0.5em;
 }
