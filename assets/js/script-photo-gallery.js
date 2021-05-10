@@ -3,13 +3,13 @@ const seeMoreBtn = document.getElementById('see-more-btn')
 const photoCounterDiv = document.getElementById('photo-counter')
 let images = []
 let imageCounter = 0;
-const increment = 20;
+const IMAGES_INCREMENT = 20;
 
 seeMoreBtn.addEventListener('click', function(e) {
     displayMoreImages()
 })
 
-// start with only 50 images
+// fetch all but start with display only 50 images
 async function getPhotos() {
     try {
         const fetchResponse = await fetch("https://jsonplaceholder.typicode.com/photos")
@@ -27,12 +27,12 @@ async function getPhotos() {
 }
 
 function displayMoreImages() {
-    for (let i = imageCounter; i < Math.min(5000,imageCounter + increment); i++) {
+    for (let i = imageCounter; i < Math.min(5000,imageCounter + IMAGES_INCREMENT); i++) {
         let imgEtTitreDiv = document.createElement('div')
         let img = document.createElement('img')
         img.src = images[i].thumbnailUrl
         let titre = document.createElement('h6')
-        titre.innerText = images[i].title
+        titre.innerText = images[i].id + ". " + images[i].title
         imgEtTitreDiv.appendChild(img)
         imgEtTitreDiv.appendChild(titre)
         galleryDiv.appendChild(imgEtTitreDiv)
@@ -40,7 +40,7 @@ function displayMoreImages() {
     if (imageCounter >= 5000) {
         alert('no more images!')
     } else {
-        imageCounter += increment;
+        imageCounter += IMAGES_INCREMENT;
         photoCounterDiv.innerHTML = `Showing ${imageCounter} of ${images.length} photos`
     }
 }
