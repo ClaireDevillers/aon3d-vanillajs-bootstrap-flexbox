@@ -2,6 +2,10 @@
 
 This is a challenge I receive to create a responsive design based on a wireframe (see index.html), and also a photo gallery (see Api-integration branch gallery-photos.html).
 
+# live demo
+<a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/gallery-photos.html">Photo gallery with pagination</a>
+<a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/">Bootstrap samples</a>
+
 # screenshots
 
 ![image](https://user-images.githubusercontent.com/69227766/117607710-93b83d80-b12a-11eb-8b7f-9636fa328d0c.png)
