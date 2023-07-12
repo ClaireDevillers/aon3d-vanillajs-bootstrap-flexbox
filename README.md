@@ -4,6 +4,7 @@ This is a challenge I receive to create a responsive design based on a wireframe
 
 # live demo
 <a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/gallery-photos.html">Photo gallery with pagination</a>
+
 <a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/">Bootstrap samples</a>
 
 # screenshots
