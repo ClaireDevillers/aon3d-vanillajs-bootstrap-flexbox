@@ -3,7 +3,7 @@
 This is a challenge I receive to create a responsive design based on a wireframe (see index.html), and also a photo gallery (see Api-integration branch gallery-photos.html).
 
 # live demo
-<a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/gallery-photos.html">Photo gallery with pagination</a>
+<a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/gallery-photos.html">Photo gallery (API calls, DOM, pagination)</a>
 
 <a href="https://clairedevillers.github.io/aon3d-vanillajs-bootstrap-flexbox/">Bootstrap samples</a>
 
